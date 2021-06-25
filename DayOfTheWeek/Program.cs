@@ -7,8 +7,6 @@ namespace DayOfTheWeek
     {
         static void Main(string[] args)
         {
-            CheckData.IMain _checkData = new CheckData.Main();
-
             Console.WriteLine("######## Day of the Week console #########");
             Console.WriteLine("");
 
@@ -18,8 +16,7 @@ namespace DayOfTheWeek
             year = Console.ReadLine();
 
             //check the value it's a number
-            var checkYear = _checkData.IsNumber(year);
-            if (!checkYear)
+            if (!IsNumber(year))
             {
                 Console.WriteLine("The value it's not a number, please try again.");
                 return;
@@ -32,8 +29,7 @@ namespace DayOfTheWeek
             month = Console.ReadLine();
 
             //check the value it's a number
-            checkYear = _checkData.IsNumber(month);
-            if (!checkYear)
+            if (!IsNumber(month))
             {
                 Console.WriteLine("The value it's not a number, please try again.");
                 return;
@@ -46,8 +42,7 @@ namespace DayOfTheWeek
             day = Console.ReadLine();
 
             //check the value it's a number
-            checkYear = _checkData.IsNumber(day);
-            if (!checkYear)
+            if (!IsNumber(day))
             {
                 Console.WriteLine("The value it's not a number, please try again.");
                 return;
@@ -88,6 +83,12 @@ namespace DayOfTheWeek
         private static string Calcule(DateTime calculeTheWeekDay, string culture)
         {
             return calculeTheWeekDay.ToString("ddddd", new CultureInfo(culture));
+        }
+
+        private static bool IsNumber(string value)
+        {
+            CheckData.IMain _checkData = new CheckData.Main();
+            return _checkData.IsNumber(value);
         }
     }
 }
