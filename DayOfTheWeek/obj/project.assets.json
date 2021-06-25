@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CheckData/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.2/CheckData.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/CheckData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CheckData/1.0.4": {
+      "sha512": "x+ghtDPC72iA0A3da/YiZyQmgxnS6kOWoXA1V8wZofz0bsxKBWGsMiNcGj0b0HQA+9tM5fgV0n8yqbrhr5hm7g==",
+      "type": "package",
+      "path": "checkdata/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LGPL-2.0-only.txt",
+        "checkdata.1.0.4.nupkg.sha512",
+        "checkdata.nuspec",
+        "checkdata.png",
+        "lib/netcoreapp2.2/CheckData.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CheckData >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\junmau\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj",
+      "projectName": "DayOfTheWeek",
+      "projectPath": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj",
+      "packagesPath": "C:\\Users\\junmau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\junmau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "CheckData": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

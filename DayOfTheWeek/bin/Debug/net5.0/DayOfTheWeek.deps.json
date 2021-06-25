@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DayOfTheWeek/1.0.0": {
+        "dependencies": {
+          "CheckData": "1.0.4"
+        },
+        "runtime": {
+          "DayOfTheWeek.dll": {}
+        }
+      },
+      "CheckData/1.0.4": {
+        "runtime": {
+          "lib/netcoreapp2.2/CheckData.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DayOfTheWeek/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheckData/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+ghtDPC72iA0A3da/YiZyQmgxnS6kOWoXA1V8wZofz0bsxKBWGsMiNcGj0b0HQA+9tM5fgV0n8yqbrhr5hm7g==",
+      "path": "checkdata/1.0.4",
+      "hashPath": "checkdata.1.0.4.nupkg.sha512"
+    }
+  }
+}
