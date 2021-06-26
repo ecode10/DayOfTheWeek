@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p5B6MJ1x6PJKixOFRiIki7GPRzon1vvxhjCqCzhLciJEAtEmSPX2E/2Vdnqxf2R+zrcM15F3HSlUpz7fxjZqnA==",
+  "dgSpecHash": "W3IZJ6yrWM+CaUDYeay/odU4AUxx3Zk4oUgk0h37/qJkXEzoHDC97ddYvtFn8gSTzmNywukKKecZRqZ5F6hIOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj",
+  "projectFilePath": "/Users/mauriciojunior/Documents/GitHub/DayOfTheWeek/DayOfTheWeek/DayOfTheWeek.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\junmau\\.nuget\\packages\\checkdata\\1.0.4\\checkdata.1.0.4.nupkg.sha512"
+    "/Users/mauriciojunior/.nuget/packages/checkdata/1.0.4/checkdata.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

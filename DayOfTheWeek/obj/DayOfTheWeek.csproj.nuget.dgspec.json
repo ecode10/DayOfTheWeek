@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj": {}
+    "/Users/mauriciojunior/Documents/GitHub/DayOfTheWeek/DayOfTheWeek/DayOfTheWeek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj": {
+    "/Users/mauriciojunior/Documents/GitHub/DayOfTheWeek/DayOfTheWeek/DayOfTheWeek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj",
+        "projectUniqueName": "/Users/mauriciojunior/Documents/GitHub/DayOfTheWeek/DayOfTheWeek/DayOfTheWeek.csproj",
         "projectName": "DayOfTheWeek",
-        "projectPath": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\DayOfTheWeek.csproj",
-        "packagesPath": "C:\\Users\\junmau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junmau\\source\\repos\\ConsoleApp4\\DayOfTheWeek\\obj\\",
+        "projectPath": "/Users/mauriciojunior/Documents/GitHub/DayOfTheWeek/DayOfTheWeek/DayOfTheWeek.csproj",
+        "packagesPath": "/Users/mauriciojunior/.nuget/packages/",
+        "outputPath": "/Users/mauriciojunior/Documents/GitHub/DayOfTheWeek/DayOfTheWeek/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\junmau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/mauriciojunior/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

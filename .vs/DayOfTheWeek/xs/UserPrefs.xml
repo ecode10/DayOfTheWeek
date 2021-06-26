@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{90809529-FA1C-46F5-B8AD-DE8E183EF39C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DayOfTheWeek/Program.cs">
+    <Files>
+      <File FileName="DayOfTheWeek/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DayOfTheWeek" expanded="True">
+            <Node name="DayOfTheWeek" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DayOfTheWeek PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
